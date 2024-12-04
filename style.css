@@ -1,0 +1,83 @@
+
+body {
+    background-image: url(Tanah\ Lot.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: #333;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.hero {
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.programs {
+    padding: 2rem;
+    text-align: center;
+}
+
+.program-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.program-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    flex: 0 0 auto;
+    width: 300px;
+    text-align: center;
+}
+
+.program-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.program-card img:hover {
+    transform: scale(1.05);
+}
+
+.program-card h3 {
+    margin-top: 0.5rem;
+    color: #333;
+}
+
+.program-card p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
